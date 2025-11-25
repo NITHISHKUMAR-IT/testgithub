@@ -1,12 +1,11 @@
-rows = 5
-for i in range( 0 , rows + 1 ):
-  for j in range(
-      rows-i,0,-1):
-        print(j , end =' ')
-  print()
-  
-  word = "python"
-  x = " "
-  for i in word:
-    x += i + " "
-    print(x)
+rows = 5 
+for i in range(0,rows):
+  for j in range(0,i+1):
+    print ("*",end=' ')
+    print("\r")
+
+for i in range(rows,0.-1):
+  for j in range(0,i-1):
+    print("*", end=' ')
+    print("\r")
+    
